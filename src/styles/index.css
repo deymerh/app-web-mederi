@@ -126,7 +126,7 @@
 .hero__button {
     margin-top: 10px;
     padding: 20px;
-    width: 20%;
+    /* width: 20%; */
     border: none;
     border-radius: 10px;
     background-color: #17A68C;
@@ -269,14 +269,24 @@
     color: #ced6dd;
 }
 
+.footer__text h3 i {
+    margin-right: 5px;
+    text-align: center;
+    width: 20px;
+}
+
 .footer__text a {
     color: #ced6dd;
 }
 
-.footer__img figure img {
-    height: 30px;
-    width: 200px;
-    display: block;
+.footer__text p {
+    margin-bottom: 10px;
+}
+
+.footer__text p i {
+    margin-right: 5px;
+    text-align: center;
+    width: 20px;
 }
 
 .footer h3 {
@@ -284,8 +294,25 @@
     color: white;
 }
 
+.subfooter {
+    color: white;
+    background-color: #1A4B74;
+    text-align: center;
+    padding: 10px;
+    font-size: 12px;
+}
+
 
 /* pagina agenda */
+
+.title {
+    margin: 50px 100px;
+    color: #566573;
+}
+
+.title__steps {
+    margin: 20px 20px;
+}
 
 .doctor {
     display: flex;
@@ -310,6 +337,9 @@
     width: 100px;
     border-radius: 20px;
     margin: 20px;
+    cursor: pointer;
+    object-fit: cover;
+    box-shadow: 0px 0px 9px 0px black;
 }
 
 .description__first-name,
@@ -318,8 +348,32 @@
     margin-bottom: 5px;
 }
 
+.description__first-ocupation {
+    color: #194973;
+}
+
+.description__calification i {
+    cursor: pointer;
+}
+
+.description__first-name a {
+    color: #566573;
+    text-decoration: none;
+}
+
+.description__first-name a i {
+    margin-right: 5px;
+    text-align: center;
+    width: 20px;
+}
+
+.description__first-name a:hover {
+    text-decoration: underline;
+    color: #17A68C;
+}
+
 .doctor__services {
-    margin: 20px;
+    margin: 5px 20px;
 }
 
 .doctor__services-text {
@@ -342,9 +396,21 @@
     margin: 10px 0;
 }
 
+.doctor__channel i {
+    margin-right: 5px;
+    text-align: center;
+    width: 20px;
+}
+
+.hero__button i {
+    margin-right: 5px;
+    text-align: center;
+    width: 20px;
+}
+
 .doctor__price {
-    margin: 20px;
-    font-size: 20px;
+    margin: 5px 20px;
+    font-size: 18px;
 }
 
 .doctor__price strong {
@@ -360,8 +426,10 @@
     justify-content: space-evenly;
 }
 
-.doctor__schedule h3 {
-    /* margin: 30px 0; */
+.doctor__schedule h3 i {
+    margin-right: 5px;
+    text-align: center;
+    width: 20px;
 }
 
 .doctor__schedule button {
@@ -372,3 +440,94 @@
     border: 0.5px point #194973;
     margin: 0 50px;
 }
+
+
+/* fin página agenda */
+
+
+/* página detalle doctor */
+
+.doctor__detail {
+    margin: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.doctor__detail-description {
+    width: 50%;
+}
+
+.detail {
+    display: flex;
+    align-items: center;
+    color: #566573;
+}
+
+.description__first h3 i {
+    margin-right: 5px;
+    text-align: center;
+    width: 20px;
+}
+
+.work {
+    color: #566573;
+    margin: 20px 20px;
+}
+
+.work h3 {
+    color: #17A68C;
+}
+
+.work i {
+    margin-right: 5px;
+    text-align: center;
+    width: 20px;
+}
+
+.work__text {
+    margin: 20px 0;
+}
+
+.work__text p {
+    text-align: justify;
+}
+
+.work__text li {
+    margin: 0 20px;
+}
+
+.work__text h3 {
+    margin: 10px 0;
+}
+
+.doctor__detail-schedule {
+    width: 50%;
+    align-items: center;
+    justify-content: center;
+}
+
+.doctor__schedule-detail {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #F1F9F8;
+    margin: 50px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.doctor__schedule-detail h3 i {
+    margin-right: 5px;
+    text-align: center;
+    width: 20px;
+}
+
+.bottom {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+
+/* fin pagína detalle doctor */
