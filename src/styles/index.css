@@ -563,6 +563,7 @@
 .content__text div {
     margin: 10px 20px;
     text-align: justify;
+    width: 40%;
 }
 
 .content__text .text__h3 {
@@ -626,7 +627,7 @@
 .form__contact {
     display: flex;
     flex-direction: column;
-    margin: 30px 0;
+    margin-bottom: 30px;
 }
 
 .form__contact .input {
@@ -664,3 +665,30 @@
 
 
 /* fin Página política privacidad de datos */
+
+
+/* Página servicios */
+
+.services {
+    display: flex;
+    margin: 30px;
+    justify-content: space-around;
+    color: #566573;
+}
+
+.services__subtitle h2 {
+    color: #1A5276;
+    margin: 20px 0;
+}
+
+.button {
+    margin: 20px;
+    text-align: center;
+}
+
+.services ol {
+    margin: 0 20px;
+}
+
+
+/* fin página servicios */
